@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Practice</title>
+
+  <link rel="icon" href="/favicon.png">
+  <style>
+    input {
+      height: 24px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h1>Using MediaWiki Action API</h1>
+    <p>入力した偉人の情報を Wikipedia から取得します。<br>あなたが尊敬する日本の偉人の情報を出力してみましょう。</p>
+
+    <input type="text" name="great-person" id="input-name" placeholder="偉人の正式名称を入力">
+    <button id="search" type="button">出力</button>
+
+    <div id="profile"></div>
+  </section>
+  <script defer src="./script.js"></script>
+</body>
+</html>
